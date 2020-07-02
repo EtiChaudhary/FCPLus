@@ -1,0 +1,78 @@
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_2 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl)	" 0.2405
+"	" 35.71% (9 correct, 5 incorrect, 14 total)
+"	"     12
+"	"  24.05
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_3 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl)	" 0.1179
+"	" 23.08% (10 correct, 3 incorrect, 13 total)
+"	"      5
+"	"  11.79
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_4 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl)	" 0.1436
+"	" 23.08% (10 correct, 3 incorrect, 13 total)
+"	"      4
+"	"  14.36
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_5 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl, COSINES-incl)	" 0.1692
+"	" 23.08% (10 correct, 3 incorrect, 13 total)
+"	"      5
+"	"  16.92
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_6 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl, COSINES-incl, EXTENDED_LINGF_All-incl)	" 0.0923
+"	" 15.38% (11 correct, 2 incorrect, 13 total)
+"	"      4
+"	"   9.23
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_7 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl, COSINES-incl, EXTENDED_LINGF_All-incl, RANK_SAME_USER-incl)	" 0.1190
+"	" 14.29% (12 correct, 2 incorrect, 14 total)
+"	"      4
+"	"  11.90
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_8 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl, COSINES-incl, EXTENDED_LINGF_All-incl, RANK_SAME_USER-incl, GOOGLE_VEC-incl)	" 0.1556
+"	" 25.00% (9 correct, 3 incorrect, 12 total)
+"	"      4
+"	"  15.56
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_9 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl, COSINES-incl, EXTENDED_LINGF_All-incl, RANK_SAME_USER-incl, GOOGLE_VEC-incl, IRF_External_google_snippets-incl)	" 0.1697
+"	" 27.27% (8 correct, 3 incorrect, 11 total)
+"	"      4
+"	"  16.97
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_10 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl, COSINES-incl, EXTENDED_LINGF_All-incl, RANK_SAME_USER-incl, GOOGLE_VEC-incl, IRF_External_google_snippets-incl, SYNTAX_VEC-incl)	" 0.1852
+"	" 22.22% (7 correct, 2 incorrect, 9 total)
+"	"      3
+"	"  18.52
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_11 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl, COSINES-incl, EXTENDED_LINGF_All-incl, RANK_SAME_USER-incl, GOOGLE_VEC-incl, IRF_External_google_snippets-incl, SYNTAX_VEC-incl, ACTIVITY-incl)	" 0.0833
+"	" 8.33% (11 correct, 1 incorrect, 12 total)
+"	"      1
+"	"   8.33
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_12 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl, COSINES-incl, EXTENDED_LINGF_All-incl, RANK_SAME_USER-incl, GOOGLE_VEC-incl, IRF_External_google_snippets-incl, SYNTAX_VEC-incl, ACTIVITY-incl, VEC_COSINES_THREAD-incl)	" 0.0133
+"	" 6.67% (14 correct, 1 incorrect, 15 total)
+"	"      1
+"	"   1.33
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_13 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl, COSINES-incl, EXTENDED_LINGF_All-incl, RANK_SAME_USER-incl, GOOGLE_VEC-incl, IRF_External_google_snippets-incl, SYNTAX_VEC-incl, ACTIVITY-incl, VEC_COSINES_THREAD-incl, QUALITY-incl)	" 0.1067
+"	" 25.00% (15 correct, 5 incorrect, 20 total)
+"	"     10
+"	"  10.67
+"
+Run_ID	Average Loss	Zero/one-Error	Total Num Swapped Pairs	Avg Swapped Pairs %
+TOP_14 (IRF_QL_only_withPages_split-incl, IRF_Bing_webpage_qataronly_splitted-incl, QL_VEC-incl, ARTICLES_SUPPORTS_QUERY_LEVENSHTEIN-incl, COSINES-incl, EXTENDED_LINGF_All-incl, RANK_SAME_USER-incl, GOOGLE_VEC-incl, IRF_External_google_snippets-incl, SYNTAX_VEC-incl, ACTIVITY-incl, VEC_COSINES_THREAD-incl, QUALITY-incl, CATEGORIES-incl)	" 0.1117
+"	" 20.00% (16 correct, 4 incorrect, 20 total)
+"	"     13
+"	"  11.17
+"
