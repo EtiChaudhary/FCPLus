@@ -1,10 +1,10 @@
 # FCPLus
 Fact Checking in CQA Forums
+This project is based on the work done in: [Fact Checking in Community Forums](https://arxiv.org/pdf/1803.03178.pdf)
 
-#### **Intructions for Reproducing Results**
--------------------------------------------------------
+## **Intructions for Reproducing Results**
 
-## Running Category-Wise Experiments
+### Running Category-Wise Experiments
 From the present working directory, follow the commands:
 ```
 cd QLFactChecker/code/classification/answers
@@ -14,7 +14,7 @@ Once the run is complete:
 - Results file will be created in QLFactChecker/data/results
 - The result file contains category-wise results (including our proposed feature-categories)
 
-## Running Combined-Feature Results
+### Running Combined-Feature Results
 - For running combined, feature results, first obtain the above category-wise results
 - Once, complete, follow the instructions as bellow:
 - For first method:
@@ -31,12 +31,12 @@ python3 combine_best_feature_groups_feedforward.py
 **NOTE** : By running the above commands, the combined-category results produced will be the ones that will include our proposed-feature sets by default.
 To get the original set of results, comment line 37 in combine_best_feature_groups.py and uncomment line 36.
 
-## To Run other classifiers
+### To Run other classifiers
 - To run the Naive Bayes Classifier, replace the "build_model" by "build_model_guassian" in QLFactChecker/code/classification/answers/RunCV.py file.
 - To run the Random Forest Classifier, replace the "build_model" by "build_model_random" in QLFactChecker/code/classification/answers/RunCV.py file.
 - To run the Logistic Regression Classifier, replace the "build_model" by "build_model_logistic" in QLFactChecker/code/classification/answers/RunCV.py file.
 
-## Running SVM-Rank
+### Running SVM-Rank
 Delete the csv file under QLFactChecker/data/results and issue the following commands:
 ```
 cd QLFactChecker/code/classification/answers
@@ -48,7 +48,7 @@ After the run is complete:
 - Ordered comments, as per SVM-Rank Ranking will be found in svm_ranked_comments/*
 - The bm25 scores can be found in QLFactChecker/bm25_scores.csv that is used as ground truth rankings.
 
-## Creating Proposed Feature Files
+### Creating Proposed Feature Files
 - Prerequisite:
   -Install TweetNLP. Please follow the following link to install it.
     
@@ -66,7 +66,7 @@ python3 create_user_expert_feat.py
 ```
 Results will be created in present directory with the file name as 'user_expertise.csv'
 
-## Summarizing Answer (Extension)
+### Summarizing Answer (Extension)
 - Prerequisite:
   - Install 'vader'.
     ```
